@@ -11,7 +11,7 @@ npm install -g sftp-watch
 Or clone and link locally:
 
 ```bash
-git clone https://github.com/your-username/sftp-watch.git
+git clone https://github.com/chadpierce/sftp-watch.git
 cd sftp-watch
 npm install
 npm link
