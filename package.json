@@ -1,0 +1,32 @@
+{
+  "name": "sftp-watch",
+  "version": "1.0.0",
+  "description": "Watch a local folder and upload changes via SFTP",
+  "main": "index.js",
+  "bin": {
+    "sftp-watch": "./bin/sftp-watch.js"
+  },
+  "scripts": {
+    "start": "node bin/sftp-watch.js start"
+  },
+  "keywords": [
+    "sftp",
+    "watch",
+    "upload",
+    "sync",
+    "deploy",
+    "cli"
+  ],
+  "author": "Chad Pierce",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chadpierce/sftp-watch"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.3",
+    "ssh2-sftp-client": "^12.1.0"
+  }
+}
